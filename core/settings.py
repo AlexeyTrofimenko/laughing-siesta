@@ -12,7 +12,7 @@ DEBUG = os.environ.get('DEBUG', False)
 
 FUTURE_TESTS = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'codeinside.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'web',
