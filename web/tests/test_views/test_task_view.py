@@ -5,6 +5,7 @@ from web.models import User, Topic, Task
 from web.views.task_view import TaskView
 
 
+
 class TaskViewTest(TestCase):
 
     @classmethod

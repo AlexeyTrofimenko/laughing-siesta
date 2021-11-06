@@ -5,6 +5,7 @@ from web.models import User, Topic
 from web.views.topic_view import TopicView
 
 
+
 class TopicViewTest(TestCase):
 
     @classmethod
